@@ -1,0 +1,80 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  /* Styling for the buttons */
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the paragraph */
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Styling for the div */
+  #myDiv {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Highlight class for the div */
+  .highlight {
+    background-color: yellow;
+  }
+  
+  /* Styling for the list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 8px;
+    background-color: #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  ul li:hover {
+    background-color: #ccc;
+  }
+  
+  /* Styling for the input field */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Counter display */
+  #counter {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
